@@ -30956,7 +30956,7 @@
       )
     )
   )
-  (zone (net 5) (net_name "GND") (layer "B.Cu") (tstamp 79dbdc38-ab8b-4ca2-aaac-577595524ae7) (hatch edge 0.5)
+  (zone (net 5) (net_name "GND") (layer "B.Cu") (tstamp cb920e5f-d6bd-4311-b44d-7ed15be9dc92) (hatch edge 0.5)
     (connect_pads (clearance 0.5))
     (min_thickness 0.25) (filled_areas_thickness no)
     (fill yes (thermal_gap 0.5) (thermal_bridge_width 0.5) (island_removal_mode 2) (island_area_min 10))
