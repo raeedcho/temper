@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/lib/keyswitches.pretty")(options "")(descr ""))
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/lib/kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "swoop")(type "KiCad")(uri "${KIPRJMOD}/lib/swoop/swoop.pretty")(options "")(descr ""))
+  (lib (name "dumta")(type "KiCad")(uri "${KIPRJMOD}/lib/dumta/dumta.pretty")(options "")(descr ""))
+)
