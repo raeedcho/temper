@@ -1,0 +1,135 @@
+(footprint "Battery_pads_reversible" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "Sheetfile" "swoop-mx.kicad_sch")
+  (property "Sheetname" "")
+  (fp_text reference "BT1" (at 0 0.5 180) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8a70f7a2-410c-49ef-b503-8b1e1540fd24)
+  )
+  (fp_text value "Battery" (at 0 -0.5 180) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 179297eb-b0e7-45fd-a287-ed66c1d54369)
+  )
+  (fp_text user "Battery" (at 0 3 180) (layer "B.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
+    (tstamp 513b2db0-9710-4097-a0f2-0f7bcbd744da)
+  )
+  (fp_text user "+ve" (at -1.22 1.78 180) (layer "B.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.08)) (justify mirror))
+    (tstamp 5adfa564-011e-4a12-8859-deffc2a0e089)
+  )
+  (fp_text user "-ve" (at 1.18 1.757 180) (layer "B.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.08)) (justify mirror))
+    (tstamp 9bcdf208-1564-4af5-8793-0e35a4535094)
+  )
+  (fp_text user "BT01" (at 0 0.5 180) (layer "B.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (tstamp a604ae35-b06b-4368-b391-8e7748239875)
+  )
+  (fp_text user "+ve" (at -1.22 1.78 180) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.08)))
+    (tstamp 57a7ec81-1d30-46e2-bdf8-8320b9665495)
+  )
+  (fp_text user "Battery" (at 0 3 180) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
+    (tstamp e99c92ed-a3d1-4b5e-9be9-ad8c1c3e2068)
+  )
+  (fp_text user "-ve" (at 1.18 1.757 180) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.08)))
+    (tstamp ea715aef-f1f5-4c34-b781-7c4bc7bf5f7a)
+  )
+  (fp_text user "Battery_Cell" (at 0 -0.5 180) (layer "B.Fab")
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (tstamp bb35b6f4-f889-4c91-9643-dbc5a3a7ee65)
+  )
+  (fp_poly
+    (pts
+      (xy -1.8 -1)
+      (xy -1.8 1)
+      (xy -0.4 1)
+      (xy -0.4 -1)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "B.Mask") (tstamp f6ec60a3-47bc-4bd1-893a-6f44519f2029))
+  (fp_poly
+    (pts
+      (xy 0.4 -1)
+      (xy 0.4 1)
+      (xy 1.8 1)
+      (xy 1.8 -1)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "B.Mask") (tstamp f4b32910-59d1-4ac8-b6d8-f76d91c42430))
+  (fp_poly
+    (pts
+      (xy -0.401442 -1)
+      (xy -0.401442 1)
+      (xy -1.801442 1)
+      (xy -1.801442 -1)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp 1b0c61af-cc3e-46ca-aa69-31b8c967923a))
+  (fp_poly
+    (pts
+      (xy 1.8 -1)
+      (xy 1.8 1)
+      (xy 0.4 1)
+      (xy 0.4 -1)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp df436811-5448-4d74-95f6-1097f73f4bc0))
+  (pad "1" thru_hole circle (at -1.1004 -1.3416) (size 0.55 0.55) (drill 0.3048) (layers "*.Cu") (tstamp 8fbf199b-4bae-4530-81cf-896547a47397))
+  (pad "1" smd custom (at -1.1 0 180) (size 1.5 2.1) (layers "F.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.179 1.3352)
+          (xy -0.1766 1.3352)
+          (xy -0.1766 0.762)
+          (xy 0.179 0.762)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp b5b05746-26ad-4dc4-b183-73aa5bdbd63d))
+  (pad "1" smd custom (at -1.1 0) (size 1.5 2.1) (layers "B.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.176556 -0.7618)
+          (xy -0.179044 -0.7618)
+          (xy -0.179044 -1.335)
+          (xy 0.176556 -1.335)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp 5f21fc78-ad68-4ef9-a873-535414eb2a02))
+  (pad "2" thru_hole circle (at 1.1 -1.3416) (size 0.55 0.55) (drill 0.3048) (layers "*.Cu") (tstamp ebc6fafa-5b44-4698-8b90-2cfa109a2dea))
+  (pad "2" smd custom (at 1.1 0 180) (size 1.5 2.1) (layers "F.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.1786 1.3352)
+          (xy -0.177 1.3352)
+          (xy -0.177 0.762)
+          (xy 0.1786 0.762)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp 7046e25f-98e9-4287-9abc-499cc9051860))
+  (pad "2" smd custom (at 1.1 0) (size 1.5 2.1) (layers "B.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.1766 -0.7618)
+          (xy -0.179 -0.7618)
+          (xy -0.179 -1.335)
+          (xy 0.1766 -1.335)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp f658a410-38ec-46ee-9795-8cfd8058da47))
+)
