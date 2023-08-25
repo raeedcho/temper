@@ -41,6 +41,8 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
 
 ## Firmware (TODO)
 
+This keyboard uses [ZMK firmware](https://zmk.dev), which allows for configuration through GitHub Actions. An example configuration repository is [here](https://github.com/raeedcho/temper-zmk-config.git).
+
 ## Why "temper"?
 
 Tempering is a finicky process that changes the structure of chocolate to make it more shiny, but doesn't really change the taste much.
