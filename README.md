@@ -39,7 +39,7 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
 - (Optional) 4x Mill-Max 310 series machine sockets + 48x Mill-Max pins for socketing microcontrollers
 - (Optional) 2x nice!view screens
 
-## Firmware (TODO)
+## Firmware
 
 This keyboard uses [ZMK firmware](https://zmk.dev), which allows for configuration through GitHub Actions. An example configuration repository is [here](https://github.com/raeedcho/temper-zmk-config.git).
 
