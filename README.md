@@ -1,4 +1,4 @@
-# chocofi temper
+# temper
 
 This is a split, wireless-only mechanical keyboard fashioned after the [chocofi keyboard](https://github.com/pashutk/chocofi). It started as a simple modification of the original chocofi PCBs to include battery pads and power switches for wireless use, but in the end, I thought there were enough changes to warrant giving it a separate designation. However, this design remains compatible with chocofi cases and plates.
 
