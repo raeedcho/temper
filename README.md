@@ -2,6 +2,8 @@
 
 This is a split, wireless-only mechanical keyboard fashioned after the [chocofi keyboard](https://github.com/pashutk/chocofi). It started as a simple modification of the original chocofi PCBs to include battery pads and power switches for wireless use, but in the end, I thought there were enough changes to warrant giving it a separate designation. However, this design remains compatible with chocofi cases and plates.
 
+![temper keyboard](images/temper-half.jpg)
+
 ## Features
 
 - 36-key split keyboard with 3 rows x 5 columns + 3 thumb keys per half 
@@ -13,6 +15,8 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
 - Uses 7-pin SPDT power switch and includes pads for battery on keyboard shield PCB
 - Support for [nice!view](https://nicekeyboards.com/nice-view), though this hasn't been tested yet
 - Compatible with chocofi cases and plates
+
+![temper keyboard](images/temper.jpg)
 
 ## List of changes from original chocofi
 
