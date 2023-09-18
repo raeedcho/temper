@@ -2,7 +2,7 @@
 
 This is a split, wireless-only mechanical keyboard fashioned after the [chocofi keyboard](https://github.com/pashutk/chocofi). It started as a simple modification of the original chocofi PCBs to include battery pads and power switches for wireless use, but in the end, I thought there were enough changes to warrant giving it a separate designation. However, this design remains compatible with chocofi cases and plates.
 
-For those who want to print their own temper PCBs, I've uploaded Gerber files in the [relases](https://github.com/raeedcho/temper/releases).
+For those who want to make their own temper keyboards, I've uploaded Gerber files in the [relases](https://github.com/raeedcho/temper/releases), and the SVG file for the base plate is in the [case folder](case/temper-bottomplate.svg).
 
 ![temper keyboard](images/temper-half.jpg)
 
