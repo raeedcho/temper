@@ -2,8 +2,6 @@
 
 This is a split, wireless-only mechanical keyboard fashioned after the [chocofi keyboard](https://github.com/pashutk/chocofi). It started as a simple modification of the original chocofi PCBs to include battery pads and power switches for wireless use, but in the end, I thought there were enough changes to warrant giving it a separate designation. However, this design remains compatible with chocofi cases and plates.
 
-For those who want to make their own temper keyboards, I've uploaded Gerber files in the [relases](https://github.com/raeedcho/temper/releases), and the SVG file for the base plate is in the [case folder](case/temper-bottomplate.svg).
-
 ![temper keyboard](images/temper-half.jpg)
 
 ## Features
@@ -33,7 +31,7 @@ For those who want to make their own temper keyboards, I've uploaded Gerber file
 
 ## Bill of Materials
 
-- PCB x2
+- PCB x2 (Gerber files in [relases](https://github.com/raeedcho/temper/releases))
 - 2x nice!nanos
 - 2x LiPo batteries (see nice!nano documentation for suggestions)
 - 2x Alps miniature SPDT switches
@@ -42,8 +40,40 @@ For those who want to make their own temper keyboards, I've uploaded Gerber file
 - 36x Kailh choc hotswap sockets
 - 36x Choc v1 keycaps
 - 36x 1N4148W SMD diodes
-- (Optional) 4x Mill-Max 310 series machine sockets + 48x Mill-Max pins for socketing microcontrollers
+- (Technically optional but highly recommended) MCU socket:
+  - 4x Mill-Max 310 series machine sockets
+  - 48x Mill-Max pins for socketing microcontrollers
+- (Optional) Minimal back plate case:
+  - 2x 3mm acrylic back plate (SVG file for laser cutting in [case folder](case/temper-bottomplate.svg))
+  - 10x M2 5mm brass standoffs
+  - 20x M2 3mm screws
 - (Optional) 2x nice!view screens
+
+## Assembly
+
+Assembly of this keyboard requires soldering the jumpers on the top-side of each PCB (underneath the microcontrollers). Past this, the assembly of this keyboard is similar to that of many other split wireless keyboards--there are many guides online to help. Briefly, the full list of steps includes:
+
+- Solder the jumpers underneath the microcontrollers
+- On PCB back:
+  - Solder the diodes (ensuring diodes are oriented correctly--check diode schematic to match orientation to PCB)
+  - Solder the switch sockets
+- On PCB front:
+  - Solder reset switch
+  - Solder power switch
+  - [Socket microcontroller](https://docs.splitkb.com/hc/en-us/articles/360011263059-How-do-I-socket-a-microcontroller-):
+    - Solder sockets into PCB
+    - Place masking tape (to divert solder from socket for next soldering step)
+    - Insert Mill-Max pins or diode legs
+    - Place microcontroller
+    - Solder pins to microcontroller
+    - Carefully remove microcontroller
+    - Remove tape
+  - *Carefully* solder battery wires to pads (ensuring wires don't short together--I used masking tape to secure wires)
+  - (optional) For back plate: attach standoffs to PCB with screws
+  - Press choc switches into sockets (ensuring that switch legs make it into the sockets and don't bend out of the way)
+  - Place keycaps
+  - Reseat microcontroller
+- (optional) slide back plate onto standoffs and secure with screws
 
 ## Firmware
 
