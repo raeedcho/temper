@@ -31,7 +31,7 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
 
 ## Bill of Materials
 
-- PCB x2 (Gerber files in [relases](https://github.com/raeedcho/temper/releases))
+- PCB x2 (Gerber files in [releases](https://github.com/raeedcho/temper/releases))
 - 2x nice!nanos
 - 2x LiPo batteries (see nice!nano documentation for suggestions)
 - 2x Alps miniature SPDT switches
