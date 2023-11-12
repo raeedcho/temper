@@ -64,10 +64,11 @@ Assembly of this keyboard requires soldering the jumpers on the front-side of ea
     - Solder sockets into PCB
     - Place masking tape (to divert solder from socket for next soldering step)
     - Insert Mill-Max pins or diode legs
-    - Place microcontroller
+    - Place microcontroller (blank side up)
     - Solder pins to microcontroller
     - Carefully remove microcontroller
     - Remove tape
+  - (optional) socket nice!view displays (same procedure as socketing microcontroller)
   - *Carefully* solder battery wires to pads (ensuring wires don't short together--I used masking tape to secure wires)
   - (optional) For back plate: attach standoffs to PCB with screws
   - Press choc switches into sockets (ensuring that switch legs make it into the sockets and don't bend out of the way)
