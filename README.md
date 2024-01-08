@@ -13,7 +13,7 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
 - Kailh choc hotswap sockets
 - Intended to be used with [nice!nano](https://nicekeyboards.com/nice-nano)
 - Uses 7-pin SPDT power switch and includes pads for battery on keyboard shield PCB
-- Support for [nice!view](https://nicekeyboards.com/nice-view), though this hasn't been tested yet
+- Support for [nice!view](https://nicekeyboards.com/nice-view)
 - Compatible with chocofi cases and plates
 
 ![temper keyboard](images/temper.jpg)
