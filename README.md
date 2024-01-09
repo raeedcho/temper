@@ -45,7 +45,7 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
   - 48x Mill-Max pins for socketing microcontrollers
 - (Optional) Minimal back plate case:
   - 2x 3mm acrylic back plate (SVG file for laser cutting in [case folder](case/temper-bottomplate.svg))
-  - 10x M2 5mm brass standoffs
+  - 10x M2 4 or 5mm brass standoffs (I used 5mm, but some users have said that 4mm fits better)
   - 20x M2 3mm screws
 - (Optional) 2x nice!view screens
 
