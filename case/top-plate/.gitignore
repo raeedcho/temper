@@ -38,6 +38,9 @@ rescue-backup/
 *.tsv
 bom/
 
+# project file (only need PCB)
+*.kicad_pro
+
 # Gerber export output
 out/
 
