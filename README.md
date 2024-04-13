@@ -78,7 +78,11 @@ Assembly of this keyboard requires soldering the jumpers on the front-side of ea
 
 ## Firmware
 
-This keyboard uses [ZMK firmware](https://zmk.dev), which allows for configuration through GitHub Actions. An example configuration repository is [here](https://github.com/raeedcho/temper-zmk-config.git).
+This keyboard uses [ZMK firmware](https://zmk.dev), which allows for configuration through GitHub Actions. An example configuration repository is [here](https://github.com/raeedcho/temper-zmk-config.git). The temper has also been added as an outboard on [Miryoku ZMK](https://github.com/manna-harbour/miryoku_zmk) via this [pull request](https://github.com/manna-harbour/miryoku_zmk/pull/42).
+
+## Case options
+
+The temper should be compatible with any case that works on the chocofi. The pictures above show a minimal case using only a laser-cut acrylic backplate (design [here](case/temper-bottomplate.svg), held on by M2 screws and brass standoffs. Another option is the [temper gasket case](https://github.com/calerouxz/TemperKB-case), designed specifically for the temper by [calerouxz](https://github.com/calerouxz). The gasket case is more complex than the simple acrylic backplate, but has a more polished final look and feel.
 
 ## Why "temper"?
 
