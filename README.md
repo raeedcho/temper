@@ -31,7 +31,7 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
 
 ## Bill of Materials
 
-- PCB x2 (Gerber files in [releases](https://github.com/raeedcho/temper/releases))
+- 2x PCB (gerber files in [releases](https://github.com/raeedcho/temper/releases))
 - 2x nice!nanos
 - 2x LiPo batteries (see nice!nano documentation for suggestions)
 - 2x Alps miniature SPDT switches
@@ -47,6 +47,7 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
   - 2x 3mm acrylic back plate (SVG file for laser cutting in [case folder](case/temper-bottomplate.svg))
   - 10x M2 4 or 5mm brass standoffs (I used 5mm, but some users have said that 4mm fits better)
   - 20x M2 3mm screws
+- (Optional) 2x FR-4 switch plate (goes well with the back plate--gerber files in [releases](https://github.com/raeedcho/temper/releases))
 - (Optional) 2x nice!view screens
 
 ## Assembly
@@ -70,11 +71,17 @@ Assembly of this keyboard requires soldering the jumpers on the front-side of ea
     - Remove tape
   - (optional) socket nice!view displays (same procedure as socketing microcontroller)
   - *Carefully* solder battery wires to pads (ensuring wires don't short together--I used masking tape to secure wires)
-  - (optional) For back plate: attach standoffs to PCB with screws
-  - Press choc switches into sockets (ensuring that switch legs make it into the sockets and don't bend out of the way)
-  - Place keycaps
   - Reseat microcontroller
-- (optional) slide back plate onto standoffs and secure with screws
+- Putting it all together (follow specific case instructions if applicable)
+  - (optional) For back plate:
+    - attach standoffs to PCB with screws
+    - slide back plate onto standoffs and secure with screws
+  - If not using switch plate:
+    - press switches directly into PCB sockets (ensuring switch legs make it into the sockets and don't bend out of the way)
+  - If using switch plate:
+    - press switches into plate
+    - align switches with PCB holes and press into sockets (ensuring legs make it into sockets and don't bend out of the way)
+  - Place keycaps on switches
 
 ## Firmware
 
@@ -82,7 +89,9 @@ This keyboard uses [ZMK firmware](https://zmk.dev), which allows for configurati
 
 ## Case options
 
-The temper should be compatible with any case that works on the chocofi. The pictures above show a minimal case using only a laser-cut acrylic backplate (design [here](case/temper-bottomplate.svg)), held on by M2 screws and brass standoffs. Another option is the [temper gasket case](https://github.com/calerouxz/TemperKB-case), designed specifically for the temper by [calerouxz](https://github.com/calerouxz). The gasket case is more complex than the simple acrylic backplate, but has a more polished final look and feel.
+The temper should be compatible with any case that works on the chocofi. The pictures above show a minimal case using only a laser-cut acrylic backplate (SVG design [here](case/temper-bottomplate.svg)), held on by M2 screws and brass standoffs. It's also possible to add an FR-4 switch plate (KiCAD design [here](case/top-plate)), which helps keep the switches stable in the hot-swap sockets.
+
+Another option is the [temper gasket case](https://github.com/calerouxz/TemperKB-case), designed specifically for the temper by [calerouxz](https://github.com/calerouxz). The gasket case is more complex than the simple acrylic backplate and FR-4 switch plate, but has a more polished final look and feel.
 
 ## Why "temper"?
 
