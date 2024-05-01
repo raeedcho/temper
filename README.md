@@ -93,6 +93,8 @@ The temper should be compatible with any case that works on the chocofi. The pic
 
 Another option is the [temper gasket case](https://github.com/calerouxz/TemperKB-case), designed specifically for the temper by [calerouxz](https://github.com/calerouxz). The gasket case is more complex than the simple acrylic backplate and FR-4 switch plate, but has a more polished final look and feel.
 
+A third option is the temper metal case which can be found in the /case/temper-metal folder. This case is originally ment for those seeking an aluminium case. The folder includes the neccesary drawings and step-files to include when ordering from a CNC service provider. Standoffs are not needed when using this case as the design includes "built-in" standoffs.
+
 ## Why "temper"?
 
 Tempering is a finicky process that changes the structure of chocolate to make it more shiny, but doesn't really change the taste much.
