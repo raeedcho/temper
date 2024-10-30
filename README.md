@@ -55,6 +55,7 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
 Assembly of this keyboard requires soldering the jumpers on the front-side of each PCB (underneath the microcontrollers). Past this, the assembly of this keyboard is similar to that of many other split wireless keyboards--there are many guides online to help. Briefly, the full list of steps includes:
 
 - Solder the jumpers underneath where the microcontrollers and battery would go (on PCB front). It's best to do this step first, since it's easiest when there are no other components on the board.
+![Soldered jumpers](images/solder.png)
 - On PCB back:
   - Solder the diodes (ensuring diodes are oriented correctly--check diode schematic to match orientation to PCB)
   - Solder the switch sockets
