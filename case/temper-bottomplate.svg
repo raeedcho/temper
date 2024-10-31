@@ -24,11 +24,17 @@
 	<g>
 		<circle class="st0" cx="60.7" cy="121.2" r="4.6"/>
 	</g>
+
 	<g>
-		<path class="st0" d="M323.3,36.1h-57.5"/>
+		<path class="st0" d= "M10,240 h28.75 v28.75 h-28.75 v-28.75" />
+		<text x="10" y="235" style="font: 5px sans-serif;">10mm * 10mm</text>
+	</g>
+
+	<g>
+		<path class="st0" d="M323.3,36.1h-57.5" />
 		<path class="st0" d="M59.4,59.4l-48.5-0.1"/>
 		<path class="st0" d="M289.7,262.5l35.3-61.3"/>
-		<path class="st0" d="M246.3,240.7l39.2,22.6"/>
+		<path class="st0" d="M246.3,240.7l39.2,22.6" />
 		<path class="st0" d="M146.8,227.3l50.4,0.1"/>
 		<path class="st0" d="M264.4,35.1c-0.1-0.7-0.7-1.1-1.4-1.1"/>
 		<path class="st0" d="M264.4,35.1c0.2,0.6,0.7,1,1.4,1"/>
