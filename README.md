@@ -52,7 +52,9 @@ This is a split, wireless-only mechanical keyboard fashioned after the [chocofi 
 
 ## Assembly
 
-Assembly of this keyboard requires soldering the jumpers on the front-side of each PCB (underneath the microcontrollers). Past this, the assembly of this keyboard is similar to that of many other split wireless keyboards--there are many guides online to help. Briefly, the full list of steps includes:
+Assembly of this keyboard requires soldering the jumpers on the front-side of each PCB (underneath the microcontrollers). Past this, the assembly of this keyboard is similar to that of many other split wireless keyboards--there are many guides online to help. In case it helps with assembly, there's a screenshot of the PCB schematic in the somewhat incomplete [PCB folder readme](https://github.com/raeedcho/temper/tree/main/pcb).
+
+Briefly, the full list of steps includes:
 
 - Solder the jumpers underneath where the microcontrollers and battery would go (on PCB front). It's best to do this step first, since it's easiest when there are no other components on the board.
 ![Soldered jumpers](images/solder.png)
