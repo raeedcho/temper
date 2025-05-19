@@ -78,7 +78,8 @@ Briefly, the full list of steps includes:
 - Putting it all together (follow specific case instructions if applicable)
   - (optional) For back plate:
     - attach standoffs to PCB with screws
-    - slide back plate onto standoffs and secure with screws
+    - slide PCB standoffs into the aligned backplate holes
+    - secure backplate in place with M2 screws (the backplate will be sandwiched in place between the hot swap sockets and the screw heads)
   - If not using switch plate:
     - press switches directly into PCB sockets (ensuring switch legs make it into the sockets and don't bend out of the way)
   - If using switch plate:
