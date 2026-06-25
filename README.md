@@ -99,6 +99,7 @@ Other options:
 - The [temper gasket case](https://github.com/calerouxz/TemperKB-case), designed specifically for the temper by [calerouxz](https://github.com/calerouxz). The gasket case is more complex than the simple acrylic backplate and FR-4 switch plate, but has a more polished final look and feel.
 - This [custom temper case](https://github.com/AdrianBonpin/zmk-temper), designed by [AdrianBonpin](https://github.com/AdrianBonpin). This repository also contains another example firmware configuration, with support for [ZMK Studio](https://zmk.dev/docs/features/studio).
 - A [CNC metal case](https://github.com/CoenTurk/temper-metal), designed by [CoenTurk](https://github.com/CoenTurk). See https://github.com/raeedcho/temper/pull/18 for images.
+- A case with a big 600mah battery [link](https://github.com/vdztvboven-cpu/temper-case), designed by [kulderzipke](https://github.com/vdztvboven-cpu).
 
 ## Why "temper"?
 
